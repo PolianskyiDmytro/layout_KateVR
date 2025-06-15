@@ -17,6 +17,7 @@
 
   &__content {
     @include page-grid;
+    
     position: relative;
 
     height: 265px;

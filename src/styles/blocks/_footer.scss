@@ -10,6 +10,7 @@
 
   &__content {
     @include page-grid;
+    
     grid-template-rows: 29px 94px 22px;
 
     @include on-tablet {

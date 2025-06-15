@@ -1,5 +1,6 @@
 .bottom {
   display: none;
+
   @include on-desktop {
     margin-bottom: 84px;
     display: block;
@@ -10,8 +11,10 @@
   @include on-desktopxl {
     margin-bottom: 107px;
   }
+
   &__list {
     @include page-grid;
+    
     align-items: start;
   }
 

@@ -105,6 +105,7 @@
     line-height: 18.2px;
     cursor: pointer;
     display: inline-block;
+    
     @include hover(scale, 1.05);
 
     @include on-tablet {
